@@ -1,4 +1,4 @@
-# -Dlib-
+# dlib-face-expression
 
 基于 **Dlib** 的人脸表情分析与识别：摄像头实时抓帧 → Dlib 检测人脸并取 68 个关键点 → 用关键点之间的几何比例算出 5–6 个表情特征 → **KNN** 分类成 7 类表情，结果直接叠加在视频画面上。
 
@@ -82,7 +82,7 @@ pip install dlib opencv-python numpy joblib
 ## 目录结构
 
 ```
--Dlib-/
+dlib-face-expression/
 ├── LICENSE                                    # MIT，Copyright (c) 2020 喆喆有梦想（上游）
 ├── README.md
 ├── .gitignore
